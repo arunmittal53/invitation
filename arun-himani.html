@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arun Mittal & Himani</title>
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/menikah.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.countdown.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.coundown.js"></script>
+    <link rel="icon" type="image/png" href="image/parrot.gif" />
+  </head>
+
+  <body>
+    <!-- Begin Preloader -->
+    <div class="preloader-wrapper">
+      <div class="preloader">
+        <img src="image/parrot.gif" alt="Party Parrot Gif" />
+      </div>
+    </div>
+    <!-- End Preloader-->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+          <!-- Begin Burger Menu -->
+          <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="mobile-nav">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <!-- End Burger Menu -->
+          <div id="mobile-nav" class="navbar-menu">
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a class="navbar-item" href="#events">
+                  Events
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#lokasi">
+                  Location
+                </a>
+              </div>
+              
+              <div class="navbar-item">
+                <a class="navbar-item" href="#about_us">
+                  Photo Gallery
+                </a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">
+                  RSVP
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle">|| ॐ श्री गणेशाय नमः ||</h1>
+            <h1 class="subtitle">Wedding Invitation</h1>
+            <h2 class="title">Arun</h2>
+            <h2 class="title">💖</h2>
+            <h2 class="title">Himani</h2>
+            <h4 class="subtitle tempatwaktu">
+              
+                Thuesday, 14th March 2023 
+                </br>
+                RKM Farms
+                </br>
+                Kaithal, Haryana
+              
+            </h4>
+          </div>
+
+          <!-- Start Countdown -->       
+          <div>
+            <ul id="hitungmundur" >
+              <li><span class="days">00</span><p class="days_text">Days</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              var harih = '03/14/2023 20:00:00';
+
+              $('#hitungmundur').countdown({
+                date: harih, // TODO Date format: 07/27/2017 17:00:00
+                offset: +5.5, // TODO Your Timezone Offset
+                day: 'Day',
+                days: 'Days'
+              }, function () {
+                alert('Done!');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+        <!-- End Hero Content-->
+
+
+
+
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="#events">Events</a>
+                  </li>
+                  <li>
+                    <a href="#lokasi">Location</a>
+                  </li>
+                  <li>
+                    <a href="#about_us">Photo Gallery</a>
+                  </li>
+                  <li>
+                    <a href="#rsvp">RSVP</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+
+      
+      <!-- Begin regular-section-->
+      <div class="section-light regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
+        
+        
+        <div data-aos="fade-in" data-aos-easing="linear">
+          <div class="nama-lengkap" >
+            Arun Mittal
+          </div>
+          (S/O Mrs. Sunita Mittal & Mr. RajKumar Mittal)
+          <br>
+          <div class="ampersand">&</div>
+          <div class="nama-lengkap">
+            Himani Goyal
+          </div>
+          (D/O Mrs. Sapna Goyal & Mr. Satish Goyal)
+          <br><br>
+          </div>
+        </div>
+
+
+        <section class="section-dark contact" id="events">
+          <div class="container">
+            <div class="columns is-multiline">          
+              <div class="column is-12 prolog">
+                <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">Events</h1>
+              </div>
+              <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+                <p class="h2 subtitle">
+                  <div class="nama-lengkap" >
+                    13th March
+                  </div>
+                  SANGEET 💃🕺 <br>(7pm onwards, at our Residence)
+                  <br><br>
+                  A function having celebratory festival feel to it with
+                  <br>people wearing viberant clothes and dancing, singing and enjoying
+                  <br><br><br><br>
+                  <div class="nama-lengkap" >
+                    14th March
+                  </div>
+                  WEDDING 🤵‍♂️👰‍♀️ <br>(8pm onwards, at RKM Farms, Kaithal)
+                  <br><br>
+                  This is the main event in the entire wedding where both tie the knot.
+                  <br>It will include band-baja-barat with some dhol of course as the maximum 
+                  <br>number of guests would be attending this event. The one where we as a couple,
+                  <br>circle the sacred fire and are finally declared as husband & wife.
+                  </p>
+      
+                <div class="space40px"></div>
+  
+                <div class="space40px"></div>
+                <div data-aos="fade-up" data-aos-easing="linear">
+                  <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+                </div>
+                <div class="space40px"></div>
+
+              </div>
+   
+           </div>
+          </div>
+        </section>  
+        
+      
+
+            <!-- Begin Lokasi Section -->
+            <div class="section-light" id="lokasi" data-aos="fade-in" data-aos-easing="linear" >
+              <div class="container">
+
+                <div class="column is-12 regular-section">
+                  <h1 class="title has-text-centered section-title">HOW TO REACH VENUE?</h1>
+                  <p class="tempat is-larger has-text-centered">
+                    <strong>Home</strong>
+                    <br>
+                    #217, Sec 18, HUDA, kaithal
+                  </p>
+                </div>
+                <div class="section-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.3554792455!2d76.41476532633237!3d29.796272924314692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf852adb6505e631a!2zMjnCsDQ3JzQ2LjYiTiA3NsKwMjUnMDkuMyJF!5e0!3m2!1sen!2sin!4v1675928957140!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="has-text-centered">
+                  <a href="https://www.google.com/maps/place/29%C2%B047'46.6%22N+76%C2%B025'09.3%22E/@29.7962729,76.4147653,17z/data=!3m1!4b1!4m9!1m2!11m1!3e4!3m5!1s0x0:0xf852adb6505e631a!8m2!3d29.796273!4d76.41925!15sCgEq4AEA" class="button btn-arah" data-aos="fade-right">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp; Google Maps
+                  </a>
+                  <br><br><br><br>
+                </div>
+
+
+
+                <div class="column is-12 regular-section">
+                  <h1 class="title has-text-centered section-title"></h1>
+                  <p class="tempat is-larger has-text-centered">
+                    <strong>RKM Farms</strong>
+                    <br>
+                    Kaithal - Ambala Rd, Kaithal, Haryana 136027
+                  </p>
+                </div>
+                <div class="section-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13845.39735042116!2d76.4233758!3d29.8253367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc56960524b731347!2sRKM%20Farms!5e0!3m2!1sen!2sin!4v1675928811348!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="has-text-centered">
+                  <a href="https://www.google.com/maps/place/RKM+Farms/@29.8253367,76.4233758,15z/data=!4m5!3m4!1s0x0:0xc56960524b731347!8m2!3d29.825293!4d76.4233758" class="button btn-arah" data-aos="fade-right">
+                    <i class="far fa-directions"></i>
+                    &nbsp;&nbsp; Google Maps
+                  </a>
+                </div>
+              </div>
+            </div>
+      <!-- End Lokasi Content -->
+
+
+      
+
+      <!-- Begin Foto -->
+      <div class="section-dark foto-foto" id="about_us">
+        <div class="container">
+          <div
+            class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear"
+          >
+            <div class="column is-12">
+              <h1 class="title has-text-centered section-title">Photo Gallery</h1>
+            </div>
+            <div class="column is-3">
+              <img src="image/2.jpeg">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Work Content -->
+
+      <!-- Begin RSVP Content -->
+      <section class="section-dark contact" id="rsvp">
+        <div class="container">
+          <div class="columns is-multiline">          
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">RSVP</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
+              <p class="h2 subtitle">
+                It is an honor and happiness for us
+                <br>
+                if you are there to give a blessing.
+                <br>
+                <br>
+                Stay safe & take care of your health 😊
+                </p>
+    
+              <div class="space40px"></div>
+
+              <div class="space40px"></div>
+              <div data-aos="fade-up" data-aos-easing="linear">
+                <img src="image/divider-leaves.png" class="divider has-text-centered" alt="~~~">
+              </div>
+              <div class="space40px"></div>
+              <p class="h2 subtitle" data-aos="fade-up" data-aos-easing="linear">
+                We, the Happy ones,
+                <br>
+                <a class="instagram" href="https://instagram.com/_foo_bar" target="_blank" alt="Instagram Arun">
+                  <i class="fab fa-instagram"></i> @arun
+                </a>
+                &nbsp
+                <a class="instagram" href="https://instagram.com/himanig_16" target="_blank" alt="Instagram Himani">
+                  <i class="fab fa-instagram"></i> @himani
+                </a>
+              </p>
+
+            </div>
+ 
+         </div>
+        </div>
+      </section>
+      <!-- End RSVP Content -->
+    </div>
+    <!-- End Main Content -->
+
+    <!-- Begin Footer -->
+    <div class="footer">
+      <div class="container">
+        <p class="has-vertically-align">Crafted by Arun with lots of ❤️ for Himani</p>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/menikah.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+
+    <audio autoplay loop hidden>
+      <source src="/image/test.mp3" type="audio/mp3">
+    </audio>
+
+  </body>
+</html>
